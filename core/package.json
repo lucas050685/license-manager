@@ -1,0 +1,14 @@
+{
+  "name": "license-manager-core",
+  "version": "1.0.0",
+  "description": "License Manager Core",
+  "main": "index.js",
+  "author": "Lucas M Rodrigues",
+  "license": "MIT",
+  "scripts": {
+    "test-use-case": "npx tsx testUseCase.ts"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "license-manager-backend",
+  "version": "1.0.0",
+  "description": "License Manager Backend",
+  "author": "Lucas M Rodrigues",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tsx src/index.ts"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4"
+  }
+}

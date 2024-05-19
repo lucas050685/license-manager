@@ -1,0 +1,25 @@
+{
+  "name": "license-manager",
+  "version": "1.0.0",
+  "description": "License Manager",
+  "repository": "https://github.com/lucas050685/license-manager.git",
+  "author": "Lucas M Rodrigues",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./core",
+    "./backend",
+    "./frontend"
+  ],
+  "scripts": {
+    "dev:backend": "cd backend && yarn dev",
+    "dev:frontend": "cd frontend && yarn dev",
+    "dev": "concurrently \"yarn dev:backend\" \"yarn dev:frontend\""
+  },
+  "engines": {
+    "node": "20.12.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

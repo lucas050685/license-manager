@@ -1,2 +1,2 @@
-# license-manager
+# License manager
 License manager
